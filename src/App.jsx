@@ -228,7 +228,7 @@ function Dashboard({ toast, onLogout }) {
   const [importLoading, setImportLoading] = useState(false);
 
   const player = players.find(p => p.id === selectedId);
-  const canImport = user.plan === "PRO" || user.plan === "ELITE";
+const canImport = true;
   const canAlerts = user.plan === "ELITE";
 
   // ── Load players ──────────────────────────────────────────────────────────
