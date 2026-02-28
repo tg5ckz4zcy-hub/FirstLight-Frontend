@@ -424,7 +424,7 @@ const canImport = true;
                   + LOG GAME
                 </button>
                 {canImport && (
-                  <button onClick={() => setView("import")} className="btn" style={{ width:"100%", background:"#141926", color:"#5a6680", padding:8, fontSize:9, letterSpacing:1, borderRadius:4, border:"1px solid #1e2636" }}>
+                 <button onClick={()=>setView("import")} className="btn" style={{ width:"100%", background:"#0d1018", color:"#b347ff", padding:"10px 0", fontSize:10, letterSpacing:2, border:"1px solid #b347ff44", borderRadius:4, marginTop:4 }}>⬇ NHL IMPORT</button>
                     ↓ NHL IMPORT
                   </button>
                 )}
